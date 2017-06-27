@@ -1,0 +1,26 @@
+{
+  "name": "esd-circle-bot",
+  "version": "1.0.0",
+  "description": "Test project for Telegram Bot API, Api.ai, DevOps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LevshitsVV/esd-circle-bot.git"
+  },
+  "keywords": [
+    "Ai",
+    "telegram",
+    "bot",
+    "devops",
+    "api.ai"
+  ],
+  "author": "levshits",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LevshitsVV/esd-circle-bot/issues"
+  },
+  "homepage": "https://github.com/LevshitsVV/esd-circle-bot#readme"
+}
