@@ -7,5 +7,6 @@ app.get('/', function (req, res) {
   res.send('Hello world\n');
 });
 
-app.listen(8080);
-console.log('Running on http://localhost:8080');
+app.listen(process.env.PORT || 8080)
+console.log('Running app');
+console.log(process.env.PORT || 8080);
