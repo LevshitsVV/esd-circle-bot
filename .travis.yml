@@ -1,6 +1,9 @@
 sudo: required
 services:
   - docker
+env:
+  matrix:
+    - DOCKER_IMAGE=esd-circle-bot
 language: node_js
 node_js:
   - "7"
