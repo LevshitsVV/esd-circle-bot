@@ -9,5 +9,5 @@ app.get('/', function (req, res) {
   res.send('Hello world\n');
 });
 
-app.listen(PORT, HOST);
+app.listen(HOST);
 console.log('Running on http://' + HOST);
