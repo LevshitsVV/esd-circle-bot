@@ -1,5 +1,11 @@
+sudo: required
+services:
+  - docker
 language: node_js
 node_js:
   - "7"
 install:
   - npm install
+
+after_success:
+  - sh .travis/deploy_dockerhub.sh
