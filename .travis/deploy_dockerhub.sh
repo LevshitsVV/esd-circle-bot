@@ -6,4 +6,4 @@ else
     TAG="$TRAVIS_BRANCH"
 fi
 docker build -f Dockerfile -t $DOCKER_IMAGE:$TAG .
-docker push $DOCKER_USER/$DOCKER_IMAGE
+docker push $DOCKER_USER/$DOCKER_IMAGE:$TAG
