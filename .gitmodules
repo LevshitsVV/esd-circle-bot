@@ -1,0 +1,3 @@
+[submodule "libs/esd-circle-bot-common"]
+	path = libs/esd-circle-bot-common
+	url = https://github.com/LevshitsVV/esd-circle-bot-common.git
