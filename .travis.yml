@@ -6,6 +6,8 @@ env:
 language: node_js
 node_js:
   - "7"
+before_install:
+  - git submodule update --init --recursive
 install:
   - npm install
 
