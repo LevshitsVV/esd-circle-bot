@@ -1,12 +1,8 @@
-'use strict';
-const express = require('express');
+const {Composer, log} = require('micro-bot');
+const bot = new Composer();
 
-// App
-const app = express();
-app.get('/', function (req, res) {
-  res.send('Hello world\n');
-});
+bot.on('message', (ctx)=>{
+    ctx.reply(ctx.message.text);
+})
 
-app.listen(process.env.PORT || 8080)
-console.log('Running app');
-console.log(process.env.PORT || 8080);
+module.exports = bot;
