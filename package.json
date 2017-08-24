@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Warn: no test specified\" && exit 0",
-    "start": "node index.js"
+    "start": "micro-bot -d ${BOT_DOMAIN} -t ${BOT_TOKEN}"
   },
   "repository": {
     "type": "git",
